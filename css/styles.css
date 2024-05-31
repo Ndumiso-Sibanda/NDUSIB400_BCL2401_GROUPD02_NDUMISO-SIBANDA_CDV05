@@ -26,12 +26,12 @@
   }
   .section-heading {
     font-family: 'Courier New', Courier, monospace;
-    color: #6819ff;
+    color: #19d9ff;
     font-size: 1.2rem;
     margin-bottom: 3rem;
   }
   .buttons {
-    background-color: #6819ff;
+    background-color: hsl(193, 88%, 51%);
     color: #fffcff;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
@@ -44,7 +44,7 @@
   
   /* START OF HEADER */
   header {
-    background-color: #6819ff;
+    background-color: #08c0f8;
     color: #fffcff;
     padding: 0.1rem 5% 5rem;
     height: 100vh;
@@ -60,7 +60,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    background-color: #6819ff;
+    background-color: #070ff0;
     position: sticky;
     z-index: 1;
     top: 0;
@@ -224,17 +224,18 @@
   }
   
   .technology i {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #fffcff;
-    background-color: #0f1922;
+    background-color: #1b7ed3;
     padding: 1rem;
     border-radius: 0.5rem;
     margin-bottom: 0.5rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
       rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+      text-align:center;
   }
   .iconImage {
-    background-color: #0f1922;
+    background-color: #2d72ae;
     max-width: 3rem;
     max-height: 3rem;
     padding: 0.5rem;
@@ -322,7 +323,7 @@
   .project-technologies {
     font-weight: 500;
   
-    color: #6819ff;
+    color: #199bff;
     margin-top: 1rem;
   }
   .technology {
@@ -344,7 +345,7 @@
     margin-bottom: 0.9rem;
   }
   .project-badge {
-    background-color: #3e4043;
+    background-color: #e5edef;
     color: #fff;
     border-radius: 0.5rem;
     padding: 0.5rem 0.7rem;
@@ -406,7 +407,7 @@
     margin-bottom: 3rem;
   }
   .contacts-section {
-    background-color: #0f1922;
+    background-color: #ced3d7;
     color: #fffcff;
   }
   .contacts-heading {
@@ -424,7 +425,7 @@
   .form-input-container select {
     padding: 0.8rem;
     color: #fffcff;
-    background-color: #1f2831;
+    background-color: #ced3d7;
     width: 100%;
     border: none;
     border-radius: 0.5rem;
@@ -472,7 +473,7 @@
   /* END OF CONTACTS SECTION */
   /* START OF FOOTER SECTION */
   footer {
-    background-color: #0f1922;
+    background-color: #13efef;
     text-align: center;
     color: #fffcff;
     padding: 1.5rem 0;
@@ -487,7 +488,7 @@
     color: #fffcff;
   }
   .footer-social-icons a:hover {
-    color: #6819ff;
+    color: #070ff0;
   }
   footer p {
     font-size: 0.8rem;

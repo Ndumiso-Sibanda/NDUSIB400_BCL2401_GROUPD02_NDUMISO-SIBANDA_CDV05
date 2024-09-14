@@ -1,89 +1,97 @@
-/* REMOVE DEFAULT STYLES*/
+/* REMOVE DEFAULT STYLES */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: 0;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
   /* //////////////// */
   
-  /* PAGE WIDE STYLING */
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000;
-  }
-  a {
-    text-decoration: none;
-  }
-  li {
-    list-style: none;
-  }
+/* PAGE WIDE STYLING */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333; 
+  background-color: #f2f2f2; 
+}
+a {
+  text-decoration: none;
+  color: #555; 
+}
+
+li {
+  list-style: none;
+}
   /* //////////////////////// */
   
-  /* REUSABLE STYLE COMBINATIONS */
-  
-  .centered-section {
-    padding: 5rem 10%;
-  }
-  .section-heading {
-    font-family: 'Courier New', Courier, monospace;
-    color: #19d9ff;
-    font-size: 1.2rem;
-    margin-bottom: 3rem;
-  }
-  .buttons {
-    background-color: hsl(193, 88%, 51%);
-    color: #fffcff;
-    padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
-    font-weight: 500;
-  }
-  .buttons:hover {
-    background-color: #0f1922;
-  }
+/* REUSABLE STYLE COMBINATIONS */
+.centered-section {
+  padding: 5rem 10%;
+  background-color: #e6e6e6; 
+}
+
+.section-heading {
+  font-family: 'Courier New', Courier, monospace;
+  color: #333; 
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.buttons {
+  background-color: #666; 
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.buttons:hover {
+  background-color: #333; 
+}
   /* END OF REUSABLE STYLE COMBINATIONS */
   
-  /* START OF HEADER */
-  header {
-    background-color: #08c0f8;
-    color: #fffcff;
-    padding: 0.1rem 5% 5rem;
-    height: 100vh;
-    margin-top: 0;
-  }
-  header a {
-    color: #fffcff;
-  }
+/* START OF HEADER */
+header {
+  background-color: #4d4d4d; 
+  color: #f2f2f2; 
+  padding: 0.1rem 5% 5rem;
+  height: 100vh;
+  margin-top: 0;
+}
+
+header a {
+  color: #f2f2f2;
+}
   
-  /* START OF NAV BAR */
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 5%;
-    background-color: #070ff0;
-    position: sticky;
-    z-index: 1;
-    top: 0;
-  }
-  .logo a {
-    font-size: 1.5rem;
-    color: #0f1922;
-  }
-  .logo a:hover {
-    color: #fffcff;
-  }
-  .nav-list {
-    display: flex;
-    gap: 0.3rem;
-  }
-  .nav-item a {
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: #fffcff;
-  }
-  .nav-item a:hover {
-    color: #0f1922;
-  }
+ /* START OF NAV BAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: #333; 
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+.logo a {
+  font-size: 1.5rem;
+  color: #f2f2f2;
+}
+.logo a:hover {
+  color: #ddd; 
+}
+
+.nav-list {
+  display: flex;
+  gap: 0.3rem;
+}
+.nav-item a {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+.nav-item a:hover {
+  color: #999; 
+}
   /* END OF NAV BAR */
   /* START OF BACK TO TOP BUTTON */
   .back-to-top-container {
@@ -93,10 +101,10 @@
   }
   .back-to-top-button {
     font-size: 1.5rem;
-    color: #b95ded;
+    color: #999;
   }
   .back-to-top-button:hover {
-    color: #1f2831;
+    color: #333;
   }
   /* START OF BACK TO TOP BUTTON MEDIA QUERIES */
   @media screen and (min-width: 425px) {
@@ -113,10 +121,11 @@
   .hero-section {
     text-align: center;
     margin: 15% 0;
-  }
+}
   .hero-text {
     margin-bottom: 3rem;
-  }
+    color: #e0e0e0; 
+}
   .hero-text p {
     margin-bottom: 0.6rem;
   }
@@ -134,19 +143,20 @@
   }
   
   .hero-projects-link {
-    border: 2px solid #fffcff;
+    border: 2px solid #f2f2f2;
     padding: 0.7rem 1rem;
     display: inline-block;
     border-radius: 0.5rem;
     font-size: 0.9rem;
     font-weight: 600;
-  }
+    color: #f2f2f2;
+}
   
   .hero-projects-link:hover {
-    color: #fffcff;
-    border-color: #0f1922;
-    background-color: #0f1922;
-  }
+    color: #fff;
+    border-color: #333; 
+    background-color: #333;
+}
   .hero-projects-link-container a {
     margin-right: 1.5rem;
   }
@@ -280,12 +290,12 @@
   
   /* START OF PROJECTS SECTION */
   .project-section {
-    background-color: #13f9ea;
-    color: #0f1922;
-  }
-  .project-section .section-heading-text {
-    color: #fffcff;
-  }
+    background-color: #666; 
+    color: #fff; 
+}
+.project-section .section-heading-text {
+  color: #f2f2f2;
+}
   .project-container {
     width: 100%;
     margin: 0 auto 5rem 0;
@@ -299,20 +309,21 @@
     border-top-right-radius: 0.5rem;
   }
   .project-details-container {
-    background-color: #fffdfc;
+    background-color: #f0f0f0; 
     padding: 3rem 3rem;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-  }
-  .project-name {
-    font-weight: 700;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-  }
-  .project-description {
-    margin-bottom: 1.2rem;
-    padding: 1rem;
-  }
+    border-radius: 0.5rem;
+}
+.project-name {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+.project-description {
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  color: #666; /* Medium grey text */
+}
   .project-description li {
     list-style: circle;
   }
@@ -407,12 +418,12 @@
     margin-bottom: 3rem;
   }
   .contacts-section {
-    background-color: #ced3d7;
-    color: #fffcff;
-  }
-  .contacts-heading {
-    color: #fffcff;
-  }
+    background-color: #4d4d4d; /* Dark grey background */
+    color: #fff;
+}
+.contacts-heading {
+  color: #f2f2f2;
+}
   .form-input-container input {
     height: 1.5rem;
   }
@@ -423,12 +434,11 @@
   .form-input-container input,
   textarea,
   .form-input-container select {
-    padding: 0.8rem;
-    color: #fffcff;
-    background-color: #ced3d7;
-    width: 100%;
-    border: none;
-    border-radius: 0.5rem;
+      padding: 0.8rem;
+      color: #333;
+      background-color: #e6e6e6; /* Light grey for input background */
+      border: 1px solid #999;
+      border-radius: 0.5rem;
   }
   textarea {
     min-height: 7rem;
@@ -473,7 +483,7 @@
   /* END OF CONTACTS SECTION */
   /* START OF FOOTER SECTION */
   footer {
-    background-color: #13efef;
+    background-color: #999;
     text-align: center;
     color: #fffcff;
     padding: 1.5rem 0;
@@ -488,7 +498,7 @@
     color: #fffcff;
   }
   .footer-social-icons a:hover {
-    color: #070ff0;
+    color: #adaeb1;
   }
   footer p {
     font-size: 0.8rem;

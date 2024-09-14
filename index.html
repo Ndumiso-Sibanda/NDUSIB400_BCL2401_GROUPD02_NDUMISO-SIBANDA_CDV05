@@ -1,85 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Ndumiso Sibanda's Developer Portfolio" />
 
-  <script
-   src="https://kit.fontawesome.com/b614e5aac1.j"
-   crossorigin="anonymous"
-  ></script>
-  <title>Ndumiso Sibanda - Developer Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css" />
- </head>
- <body>
-  <nav>
-   <div class="logo">
-    <a href="#header"><i class="fa-solid fa-mountain-sun"></i></a>
-   </div>
-   <ul class="nav-list">
-    <li class="nav-item"><a href="#about">About</a></li>
-    <li class="nav-item"><a href="#projects">Projects</a></li>
-    <li class="nav-item"><a href="#contacts">Contacts</a></li>
-   </ul>
-  </nav>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ndumiso Sibanda's Developer Portfolio" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b614e5aac1.js" crossorigin="anonymous"></script>
+    <title>Ndumiso Sibanda - Developer Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
 
-<!-- Header Section-->
-
-<header id="header">
-    
-    <div class="back-to-top-container">
-      <a href="#header"
-        ><i class="fa-solid fa-circle-up back-to-top-button"></i
-      ></a>
-    </div>
-    <section class="hero-section">
-      <div class="hero-text">
-        <p class="intro">Hello, I'm</p>
-        <h1 class="my-name">Ndumiso-Sibanda</h1>
-        <p class="current-role">I'm junior Developer</p>
-      </div>
-      <div class="hero-projects-link-container">
-        <a href="#projects" class="hero-projects-link">View my project</a>
-        <a
-          href="https://github.com/Ndumiso-Sibanda/Ndumiso-Sibanda.git"
-          target="_blank"
-          class="hero-projects-link"
-          >Github</a
-        >
-      </div>
-    </section>
-   </header>
-   <main>
-    <!--About Section-->
-
-    <section class="about-section centered-section" id="about">
-        <div class="section-heading">
-          <h2 class="section-heading-text">About</h2>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#header"><i class="fa-solid fa-mountain-sun"></i></a>
         </div>
-        <div class="about-container">
-          <article class="about-text-and-image">
-            <div class="about-text">
-              <p>
-                I am a junior developer in the mid stages of 
-                graduating from
-                <a
-                  href="https://www.codespace.co.za/programs/software-development/"
-                  target="_blank"
-                  >CodeSpace Academy's.</a
-                >
-                passionate about creating impactful software
-                solutions. With a background in hospitality I am able to solve skills efficiently and crical think things through. And now in a new journey in software
-                development, I am eager to make a difference in the tech world.
-              </p>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="back-to-top-container">
+            <a href="#header"><i class="fa-solid fa-circle-up back-to-top-button"></i></a>
+        </div>
+        <section class="hero-section">
+            <div class="hero-text">
+                <p class="intro">Hello, I'm</p>
+                <h1 class="my-name">Ndumiso Sibanda</h1>
+                <p class="current-role">I'm a Junior Developer</p>
             </div>
-            <img
-              src="images/me.jpg"
-              alt="Ndumiso"
-              class="about-image"
-            />
-          </article>
+            <div class="hero-projects-link-container">
+                <a href="#projects" class="hero-projects-link">View my projects</a>
+                <a href="https://github.com/Ndumiso-Sibanda/Ndumiso-Sibanda.git" target="_blank" class="hero-projects-link">Github</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section class="about-section centered-section" id="about">
+            <div class="section-heading">
+                <h2 class="section-heading-text">About</h2>
+            </div>
+            <div class="about-container">
+                <article class="about-text-and-image">
+                    <div class="about-text">
+                        <p>
+                            I am a junior developer in the mid stages of graduating from
+                            <a href="https://www.codespace.co.za/programs/software-development/" target="_blank">CodeSpace Academy</a>.
+                            Passionate about creating impactful software solutions, with a background in hospitality, I solve problems efficiently and think critically. Now, in a new journey in software development, I am eager to make a difference in the tech world.
+                        </p>
+                    </div>
+                    <img src="images/me.jpg" alt="Ndumiso" class="about-image" />
+                </article>
 
           <!--Technologies-->
           
@@ -87,233 +66,251 @@
             <p class="tech-used">Technologies I'm familia with:</p>
             <div class="technologies-container">
               <div class="technology">
-                <i class="fa-brands fa-react"></i>
+                <!-- React Icon using SVG -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 15.2C10.4565 15.2 9.2 13.9435 9.2 12.4C9.2 10.8565 10.4565 9.6 12 9.6C13.5435 9.6 14.8 10.8565 14.8 12.4C14.8 13.9435 13.5435 15.2 12 15.2ZM12 0C9.51819 0 7.11454 1.19273 5.59818 3.11273C5.03591 3.81273 4.56727 4.56727 4.20545 5.35545C3.84182 4.56545 3.37636 3.80545 2.81455 3.10545C1.29818 1.18545 -0.101818 0 0 0C0 0 0 0.0000161273 0 0.0000161273C0 0.312727 1.57227 2.12273 3.38182 3.83545C3.88727 4.31727 4.35818 4.80727 4.8 5.31818C5.24455 4.80545 5.71818 4.31545 6.22545 3.83545C8.03455 2.12273 9.6 0.312727 9.6 0.000145454H9.60227C9.6 1.61273 9.6 3.22545 9.6 4.83727H9.60227C9.6 6.45 9.6 8.06273 9.6 9.67545C9.6 11.2873 9.6 12.9 9.6 14.5127H9.60227C9.6 16.1255 9.6 17.7382 9.6 19.3509H9.60227C9.6 20.9636 9.6 22.5764 9.6 24.1891H9.60227C9.6 22.5764 9.6 20.9636 9.6 19.3509H9.60227C9.6 17.7382 9.6 16.1255 9.6 14.5127H9.60227C9.6 12.9 9.6 11.2873 9.6 9.67545H9.60227C9.6 8.06273 9.6 6.45 9.6 4.83727H9.60227C9.6 3.22545 9.6 1.61273 9.6 1.61273H9.60227C7.11818 1.61273 4.8 1.61273 2.38182 1.61273H2.38091C1.79227 1.61273 1.24818 1.61273 0.712727 1.61273H0.709091C1.24 2.15636 1.84 2.78 2.5 3.48C3.18727 4.19273 3.92455 4.96727 4.68182 5.81273C5.44 4.96727 6.17727 4.19273 6.86455 3.48C7.52545 2.78 8.12545 2.15636 8.65636 1.61273H8.65273C8.11727 1.61273 7.57318 1.61273 6.98454 1.61273H6.98364C4.56455 1.61273 2.24636 1.61273 0 1.61273V0C1.34864 0 2.77273 0 4.2 0C5.62727 0 7.05136 0 8.4 0C9.75136 0 11.1755 0 12.6 0C14.0273 0 15.4514 0 16.8 0C18.2273 0 19.6523 0 21 0C22.3486 0 23.7727 0 24 0V1.61273C23.1145 1.61273 21.8 1.61273 20.4664 1.61273C19.1273 1.61273 17.8073 1.61273 16.4 1.61273C14.9936 1.61273 13.6936 1.61273 12 1.61273V0Z" />
+                </svg>
                 <p class="technology-name">React JS</p>
               </div>
-              </div>
-              <div class="technology">
-                <i class="fa-brands fa-js"></i>
-                <p class="technology-name">JavaScript</p>
-              </div>      
-              </div>
-              <div class="technology">
-                <i class="fa-brands fa-html5"></i>
-                <p class="technology-name">HTML5</p>
-              </div>
-              <div class="technology">
-                <i class="fa-brands fa-css3-alt"></i>
-                <p class="technology-name">Github</p>
-              </div>
+              
+              
+            <div class="technology">
+              <!-- JavaScript Icon using SVG -->
+              <svg width="24" height="24" viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0v256h256V0H0zm132.56 206.08c0 18.24-10.56 26.56-26 26.56-13.92 0-22-7.68-26.08-17.44l14.56-8.96c2.72 4.8 5.28 8.8 11.2 8.8 5.6 0 9.28-2.24 9.28-11.04v-59.84h17v61.92zm56.32 26.56c-16.16 0-26.56-7.76-31.68-18.08l14.56-8.96c3.84 6.08 8.88 10.56 17.76 10.56 7.44 0 12.16-3.76 12.16-8.96 0-6.24-4.96-8.48-14.08-12.16l-4.8-2.08c-13.92-5.92-23.12-13.36-23.12-29.04 0-14.44 11-25.44 28.32-25.44 12.32 0 21.2 4.32 27.6 15.6l-13.44 8.64c-3.68-6.56-7.68-9.12-13.76-9.12-6.24 0-10.08 3.84-10.08 9.12 0 6.4 4.08 8.64 13.52 12.48l4.8 2.08c16.32 7.04 25.52 14.56 25.52 30.56.08 17.36-13.76 26.08-32.16 26.08z" />
+              </svg>
+              <p class="technology-name">JavaScript</p>
             </div>
+            
+                 
+            
+            <div class="technology">
+              <!-- HTML5 Icon using SVG -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 0H22.5L21 22.5L12 24L3 22.5L1.5 0ZM12 20.55L19.2 19.8L20 5.4H16.2V7.65H19.2L18.7 15.45H12.8L12 20.55ZM7.8 7.65V5.4H3.7L4.5 19.8L12 20.55L12.8 15.45H7.8V7.65ZM12 13.5H15.2V10.5H12.8V13.5H12Z" />
+              </svg>
+              <p class="technology-name">HTML5</p>
+            </div>
+            
+              <div class="icon-container">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 0C5.372 0 0 5.372 0 12C0 17.302 3.438 21.8 8.205 23.385C8.805 23.49 9.025 23.154 9.025 22.862C9.025 22.598 9.015 21.896 9.009 20.959C5.672 21.703 4.967 19.708 4.967 19.708C4.421 18.347 3.635 17.989 3.635 17.989C2.546 17.343 3.72 17.362 3.72 17.362C4.924 17.447 5.548 18.541 5.548 18.541C6.593 20.243 8.295 19.723 9.001 19.425C9.097 18.667 9.395 18.158 9.723 17.86C7.084 17.564 4.32 16.516 4.32 11.774C4.32 10.421 4.794 9.307 5.571 8.447C5.44 8.147 5.031 6.92 5.657 5.273C5.657 5.273 6.711 4.937 8.988 6.526C9.88 6.292 10.828 6.186 11.776 6.183C12.724 6.186 13.672 6.292 14.564 6.526C16.841 4.937 17.895 5.273 17.895 5.273C18.521 6.92 18.112 8.147 17.981 8.447C18.758 9.307 19.232 10.421 19.232 11.774C19.232 16.527 16.46 17.558 13.814 17.848C14.221 18.192 14.59 18.871 14.59 19.881C14.59 21.368 14.578 22.517 14.578 22.862C14.578 23.156 14.796 23.494 15.404 23.384C20.174 21.803 23.614 17.302 23.614 12C23.614 5.372 18.242 0 12 0Z" />
+                </svg>
+                <p class="technology-name">GitHub</p>
+              </div>
+              <div class="technology">
+                <!-- Next.js Icon using SVG -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 0L24 12L12 24L0 12L12 0ZM12 4.8L4.8 12L12 19.2L19.2 12L12 4.8ZM11.5 8H12.5L12.5 10.5H11.5L11.5 8ZM11.5 11H12.5L12.5 16H11.5L11.5 11Z" />
+                </svg>
+                <p class="technology-name">Next.js</p>
+              </div>
+              <div class="technology">
+                <!-- Node.js Icon using SVG -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 0L24 12L12 24L0 12L12 0ZM12 4.8L4.8 12L12 19.2L19.2 12L12 4.8ZM11.5 8H12.5L12.5 10.5H11.5L11.5 8ZM11.5 11H12.5L12.5 16H11.5L11.5 11Z" />
+                </svg>
+                <p class="technology-name">Node.js</p>
+              </div>
+              
           </div>
         </div>
       </section>
  
-      <!-- PROJECTS SECTION -->
-
-      <section class="project-section centered-section" id="projects">
-        <div class="section-heading">
-          <h2 class="section-heading-text">Projects</h2>
+<!-- PROJECTS SECTION -->
+<section class="project-section centered-section" id="projects">
+  <div class="section-heading">
+    <h2 class="section-heading-text">Projects</h2>
+  </div>
+  <div class="all-projects-container">
+    <!-- PROJECT 1 -->
+    <article class="project-container">
+      <!-- Project image -->
+      <div class="project-image-container">
+        <img src="images/cacheBank.png" alt="Html5 and Css cacheBank" class="project-image" />
+      </div>
+      <!-- Project details -->
+      <div class="project-details-container">
+        <div class="project-badge-container">
+          <span class="project-badge">Solo Project</span>
         </div>
-        <div class="all-projects-container">
-          <!-- PROJECT 1 -->
-          <article class="project-container">
-            <!-- Project image -->
-            <div class="project-image-container">
-              <img
-                src="images/cacheBank.png"
-                alt="Html5 and Css cacheBank "
-                class="project-image"
-              />
-            </div>
-            <!-- Project details-->
-            <div class="project-details-container">
-              <div class="project-badge-container">
-                <span class="project-badge">Solo Project</span>
-              </div>
-              <p class="project-name">cacheBank Landing Page</p>
-
-              <ul class="project-description">
-                <li>
-                    Cache Bank Project This project, "Cache Bank," was created to showcase a responsive website using HTML5, CSS3 with Tailwind, and JavaScript. The project aims to provide an intuitive user experience across various devices.
-                </li>
-                <li>
-                    Responsive Design: Implementing a mobile-first design approach was challenging but rewarding. I learned how to use CSS media queries effectively to ensure the website looks great on all devices.</li>
-              
-              </ul>
-
-              <div class="project-technologies-container">
-                <span>Built using:</span>
-                <div class="project-technologies">
-                  <span class="technology"><Html></Html></span>
-                  <span class="technology">Css</span>
-                  <span class="technology">Tailwind</span>
-                  <span class="technology">JavaScript</span>
-                  <span class="technology">Github</span>
-                </div>
-              </div>
-              <a
-                href="https://github.com/Ndumiso-Sibanda/NDUSIB400_BCL2401_GroupD02_Ndumiso-Sibanda_SDF11"
-                class="project-link buttons"
-                target="_blank"
-                >Github</a
-              >
-              <a
-                href="https://ndumiso-sibanda.github.io/NDUSIB400_BCL2401_GroupD02_Ndumiso-Sibanda_SDF11/"
-                class="project-link buttons"
-                target="_blank"
-                >Visit site</a
-              >
-            </div>
-          </article>
-          <!-- PROJECT 2 -->
-          <article class="project-container">
-            <!-- Project image -->
-            <div class="project-image-container">
-              <img
-                src="images/Taskmanager.png"
-                alt="Taskmanager website"
-                class="project-image"
-              />
-            </div>
-            <!-- Project details-->
-            <div class="project-details-container">
-              <div class="project-badge-container">
-                <span class="project-badge">Solo project</span>
-              </div>
-              <p class="project-name">Taskmanager Website</p>
-
-              <ul class="project-description">
-                <li>
-                    This is a simple task management application that allows you to create, edit, and delete tasks. The tasks are grouped by their status (TODO, DOING, DONE) in different columns.
-                </li>
-
-                <li>
-                    Keeping track of the active board and updating the UI accordingly was a bit challenging. I had to ensure that the correct board was selected and displayed at all times.
-
-
-                </li>
-                <li>New tasks entered are stored in local storage.</li>
-              </ul>
-
-              <div class="project-technologies-container">
-                <span>Built using:</span>
-                <div class="project-technologies">
-                  <span class="technology">JavaScript</span>
-                  <span class="technology">Html5</span>
-                  <span class="technology">CSS</span>
-                </div>
-              </div>
-              <a
-                href="https://github.com/Ndumiso-Sibanda/NDUSIB400_BCL2401_GroupD02_Ndumiso-Sibanda_JSL11"
-                class="project-link buttons"
-                target="_blank"
-                >Github</a
-              >
-              <a
-                href="https://ndumiso-sibanda.github.io/NDUSIB400_BCL2401_GroupD02_Ndumiso-Sibanda_JSL11/"
-                class="project-link buttons"
-                target="_blank"
-                >Visit site</a
-              >
-            </div>
-          </article>
-          <!-- PROJECT 3 -->
-          <article class="project-container">
-            <!-- Project image -->
-            <div class="project-image-container">
-              <img
-                src="images/Memegenerator.png"
-                alt="Shortly – React Link Shortening Web Application"
-                class="project-image"
-              />
-            </div>
-            <!-- Project details-->
-            <div class="project-details-container">
-              <div class="project-badge-container">
-                <span class="project-badge">Solo project</span>
-              </div>
-              <p class="project-name">Meme Generator Web Application</p>
-
-              <ul class="project-description">
-                <li>
-                    Generate random meme images from a pre-defined set of memes.
-                </li>
-
-                <li>
-                    Input custom text for the top and bottom of the meme image. </li>
-                <li>
-                    Display the meme image with the custom text overlay.
-                </li>
-              </ul>
-
-              <div class="project-technologies-container">
-                <span>Built using:</span>
-                <div class="project-technologies">
-                  <span class="technology">Styled Components</span>
-                  <span class="technology">React JS</span>
-                  <span class="technology">GoTiny API</span>
-                </div>
-              </div>
-              <a
-                href="https://github.com/Ndumiso-Sibanda/NDUSIB400_BCL2401_GROUPD02_NDUMISO-SIBANDA_DJS07"
-                class="project-link buttons"
-                target="_blank"
-                >Github</a
-              >
-            
-            </div>
-          </article>
-
-                    <!-- PROJECT 4 -->
-                    <article class="project-container">
-                      <!-- Project image -->
-                      <div class="project-image-container">
-                        <img
-                          src="images/podcast-app.png"
-                          alt="Shortly – React Link Shortening Web Application"
-                          class="project-image"
-                        />
-                      </div>
-                      <!-- Project details-->
-                      <div class="project-details-container">
-                        <div class="project-badge-container">
-                          <span class="project-badge">Solo project</span>
-                        </div>
-                        <p class="project-name">Podcaast web application that fetches shows from a certain api</p>
-          
-                        <ul class="project-description">
-                          <li>
-                              Generate random podcast shows from a pre-defined set of shows.
-                          </li>
-          
-                          <li>
-                              The api does not allow you to actually listen to the shows audio but instead plays something else. </li>
-                          <li>
-                              The project is still in progress and soon will be a running application for most users out there to actually enjoy their favorate podcasts.
-                          </li>
-                        </ul>
-          
-                        <div class="project-technologies-container">
-                          <span>Built using:</span>
-                          <div class="project-technologies">
-                            <span class="technology">Styled Components</span>
-                            <span class="technology">React JS</span>
-                            <span class="technology">React routers</span>
-                            <span class="technology">Netlify API</span>
-                          </div>
-                        </div>
-                        <a
-                          href="https://github.com/Ndumiso-Sibanda/NDUSIB400_BCL2401_GROUP_D_NDUMISO-SIBANDA_DJS11"
-                          class="project-link buttons"
-                          target="_blank"
-                          >Github</a
-                        >
-                      
-                      </div>
-                    </article>
+        <p class="project-name">CacheBank Landing Page</p>
+        <ul class="project-description">
+          <li>
+            Cache Bank Project This project, "Cache Bank," was created to showcase a responsive website using HTML5, CSS3 with Tailwind, and JavaScript. The project aims to provide an intuitive user experience across various devices.
+          </li>
+          <li>
+            Responsive Design: Implementing a mobile-first design approach was challenging but rewarding. I learned how to use CSS media queries effectively to ensure the website looks great on all devices.
+          </li>
+        </ul>
+        <div class="project-technologies-container">
+          <span>Built using:</span>
+          <div class="project-technologies">
+            <span class="technology"><Html></Html></span>
+            <span class="technology">Css</span>
+            <span class="technology">Tailwind</span>
+            <span class="technology">JavaScript</span>
+            <span class="technology">Github</span>
+          </div>
         </div>
-      </section>
+        <a href="https://github.com/Ndumiso-Sibanda/NDUSIB400_BCL2401_GroupD02_Ndumiso-Sibanda_SDF11" class="project-link buttons" target="_blank">Github</a>
+        <a href="https://ndumiso-sibanda.github.io/NDUSIB400_BCL2401_GroupD02_Ndumiso-Sibanda_SDF11/" class="project-link buttons" target="_blank">Visit site</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 2 -->
+    <article class="project-container">
+      <!-- Project image -->
+      <div class="project-image-container">
+        <img src="images/Taskmanager.png" alt="Taskmanager website" class="project-image" />
+      </div>
+      <!-- Project details -->
+      <div class="project-details-container">
+        <div class="project-badge-container">
+          <span class="project-badge">Solo project</span>
+        </div>
+        <p class="project-name">Taskmanager Website</p>
+        <ul class="project-description">
+          <li>
+            This is a simple task management application that allows you to create, edit, and delete tasks. The tasks are grouped by their status (TODO, DOING, DONE) in different columns.
+          </li>
+          <li>
+            Keeping track of the active board and updating the UI accordingly was a bit challenging. I had to ensure that the correct board was selected and displayed at all times.
+          </li>
+          <li>New tasks entered are stored in local storage.</li>
+        </ul>
+        <div class="project-technologies-container">
+          <span>Built using:</span>
+          <div class="project-technologies">
+            <span class="technology">JavaScript</span>
+            <span class="technology">Html5</span>
+            <span class="technology">CSS</span>
+          </div>
+        </div>
+        <a href="https://github.com/Ndumiso-Sibanda/NDUSIB400_BCL2401_GroupD02_Ndumiso-Sibanda_JSL11" class="project-link buttons" target="_blank">Github</a>
+        <a href="https://ndumiso-sibanda.github.io/NDUSIB400_BCL2401_GroupD02_Ndumiso-Sibanda_JSL11/" class="project-link buttons" target="_blank">Visit site</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 3 -->
+    <article class="project-container">
+      <!-- Project image -->
+      <div class="project-image-container">
+        <img src="images/Memegenerator.png" alt="Meme Generator Web Application" class="project-image" />
+      </div>
+      <!-- Project details -->
+      <div class="project-details-container">
+        <div class="project-badge-container">
+          <span class="project-badge">Solo project</span>
+        </div>
+        <p class="project-name">Meme Generator Web Application</p>
+        <ul class="project-description">
+          <li>Generate random meme images from a pre-defined set of memes.</li>
+          <li>Input custom text for the top and bottom of the meme image.</li>
+          <li>Display the meme image with the custom text overlay.</li>
+        </ul>
+        <div class="project-technologies-container">
+          <span>Built using:</span>
+          <div class="project-technologies">
+            <span class="technology">Styled Components</span>
+            <span class="technology">React JS</span>
+            <span class="technology">GoTiny API</span>
+          </div>
+        </div>
+        <a href="https://github.com/Ndumiso-Sibanda/NDUSIB400_BCL2401_GROUPD02_NDUMISO-SIBANDA_DJS07" class="project-link buttons" target="_blank">Github</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 4 -->
+    <article class="project-container">
+      <!-- Project image -->
+      <div class="project-image-container">
+        <img src="images/podcast-app.png" alt="Podcast Web Application" class="project-image" />
+      </div>
+      <!-- Project details -->
+      <div class="project-details-container">
+        <div class="project-badge-container">
+          <span class="project-badge">Solo project</span>
+        </div>
+        <p class="project-name">Podcast Web Application</p>
+        <ul class="project-description">
+          <li>Generate random podcast shows from a pre-defined set of shows.</li>
+          <li>The API does not allow you to actually listen to the shows but instead plays something else.</li>
+          <li>The project is still in progress and will soon offer a better user experience for podcast lovers.</li>
+        </ul>
+        <div class="project-technologies-container">
+          <span>Built using:</span>
+          <div class="project-technologies">
+            <span class="technology">Styled Components</span>
+            <span class="technology">React JS</span>
+            <span class="technology">React Routers</span>
+            <span class="technology">Netlify API</span>
+          </div>
+        </div>
+        <a href="https://github.com/Ndumiso-Sibanda/NDUSIB400_BCL2401_GROUP_D_NDUMISO-SIBANDA_DJS11" class="project-link buttons" target="_blank">Github</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 5 -->
+    <article class="project-container">
+      <!-- Project image -->
+      <div class="project-image-container">
+        <img src="images/Vuestore.png" alt="E-commerce Store Vue.js" class="project-image" />
+      </div>
+      <!-- Project details -->
+      <div class="project-details-container">
+        <div class="project-badge-container">
+          <span class="project-badge">Solo project</span>
+        </div>
+        <p class="project-name">E-commerce Store – Vue.js</p>
+        <ul class="project-description">
+          <li>Developed a fully functional e-commerce platform using Vue.js.</li>
+          <li>Features include product listings, a shopping cart, and user authentication.</li>
+          <li>Ensured seamless UX through dynamic components and state management with Vuex.</li>
+        </ul>
+        <div class="project-technologies-container">
+          <span>Built using:</span>
+          <div class="project-technologies">
+            <span class="technology">Vue.js</span>
+            <span class="technology">Vuex</span>
+            <span class="technology">Firebase</span>
+          </div>
+        </div>
+        <a href="https://github.com/Ndumiso-Sibanda/JSF-Portfolio_Piece_NDUSIB400_jse2407_a_Ndumiso-Sibanda_JSF04.git" class="project-link buttons" target="_blank">Github</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 6 -->
+    <article class="project-container">
+      <!-- Project image -->
+      <div class="project-image-container">
+        <img src="images/Nextstore.png" alt="E-commerce Store Next.js" class="project-image" />
+      </div>
+      <!-- Project details -->
+      <div class="project-details-container">
+        <div class="project-badge-container">
+          <span class="project-badge">Solo project</span>
+        </div>
+        <p class="project-name">E-commerce Store – Next.js</p>
+        <ul class="project-description">
+          <li>Built a modern e-commerce store using Next.js, featuring server-side rendering and SEO optimization.</li>
+          <li>Implemented dynamic routing for product pages and a shopping cart system.</li>
+          <li>Leveraged Stripe for secure payments and seamless user checkout experience.</li>
+        </ul>
+        <div class="project-technologies-container">
+          <span>Built using:</span>
+          <div class="project-technologies">
+            <span class="technology">Next.js</span>
+            <span class="technology">React</span>
+            <span class="technology">Stripe API</span>
+          </div>
+        </div>
+        <a href="https://github.com/Ndumiso-Sibanda/NDUSIB400_JSE2407_Group-A_Ndumiso-Sibanda_FSJ01.git" class="project-link buttons" target="_blank">Github</a>
+      </div>
+    </article>
+  </div>
+</section>
+
   <!-- Call to action  -->
         <p class="CTA-question">Wanna Chat?</p>
         <p class="CTA">
